@@ -1,0 +1,1 @@
+<script>window.location = "index.php?page=wallet_info";</script>

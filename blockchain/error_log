@@ -1,0 +1,11 @@
+[13-Oct-2020 17:39:44 UTC] PHP Warning:  file_get_contents(https://chart.googleapis.com/chart?chs=300*300&amp;cht=qr&amp;chl=bitcoin:3CieWDAgFCpDgGnTsivYcAu8SWje9QB3Nb?amount=0.0009): failed to open stream: HTTP request failed! HTTP/1.0 400 Bad Request
+ in /home/lccxfde9sno0/public_html/blockchain/test.php on line 4
+[13-Oct-2020 17:39:44 UTC] PHP Warning:  mime_content_type(https://chart.googleapis.com/chart?chs=300*300&amp;cht=qr&amp;chl=bitcoin:3CieWDAgFCpDgGnTsivYcAu8SWje9QB3Nb?amount=0.0009): failed to open stream: HTTP request failed! HTTP/1.0 400 Bad Request
+ in /home/lccxfde9sno0/public_html/blockchain/test.php on line 6
+[13-Oct-2020 17:40:23 UTC] PHP Warning:  file_get_contents(https://chart.googleapis.com/chart?chs=300*300&amp;cht=qr&amp;chl=bitcoin:3CieWDAgFCpDgGnTsivYcAu8SWje9QB3Nb?amount=0.0009): failed to open stream: HTTP request failed! HTTP/1.0 400 Bad Request
+ in /home/lccxfde9sno0/public_html/blockchain/test.php on line 4
+[13-Oct-2020 17:40:24 UTC] PHP Warning:  mime_content_type(https://chart.googleapis.com/chart?chs=300*300&amp;cht=qr&amp;chl=bitcoin:3CieWDAgFCpDgGnTsivYcAu8SWje9QB3Nb?amount=0.0009): failed to open stream: HTTP request failed! HTTP/1.0 400 Bad Request
+ in /home/lccxfde9sno0/public_html/blockchain/test.php on line 6
+[13-Oct-2020 17:44:47 UTC] PHP Warning:  mime_content_type(): Failed identify data 0:(null) in /home/lccxfde9sno0/public_html/blockchain/test.php on line 6
+[13-Oct-2020 17:45:39 UTC] PHP Warning:  mime_content_type(): Failed identify data 0:(null) in /home/lccxfde9sno0/public_html/blockchain/test.php on line 6
+[13-Oct-2020 17:46:04 UTC] PHP Warning:  mime_content_type(): Failed identify data 0:(null) in /home/lccxfde9sno0/public_html/blockchain/test.php on line 6

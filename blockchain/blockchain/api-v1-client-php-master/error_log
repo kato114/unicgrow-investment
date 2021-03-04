@@ -1,0 +1,337 @@
+[12-Oct-2020 14:46:17 UTC] PHP Fatal error:  Uncaught Blockchain\Exception\ApiError: When calling a merchant endpoint or creating a wallet, service_url must be set in /home/lccxfde9sno0/public_html/blockchain/blockchain/api-v1-client-php-master/src/Blockchain.php:97
+Stack trace:
+#0 /home/lccxfde9sno0/public_html/blockchain/blockchain/api-v1-client-php-master/src/Create/Create.php(39): Blockchain\Blockchain->post('api/v2/create', Array)
+#1 /home/lccxfde9sno0/public_html/blockchain/blockchain/api-v1-client-php-master/src/Create/Create.php(14): Blockchain\Create\Create->doCreate('weakPassword01!', NULL, NULL, NULL)
+#2 /home/lccxfde9sno0/public_html/blockchain/blockchain/api-v1-client-php-master/Welcome.php(11): Blockchain\Create\Create->create('weakPassword01!')
+#3 {main}
+  thrown in /home/lccxfde9sno0/public_html/blockchain/blockchain/api-v1-client-php-master/src/Blockchain.php on line 97
+[12-Oct-2020 14:47:09 UTC] PHP Fatal error:  Uncaught Blockchain\Exception\ApiError: When calling a merchant endpoint or creating a wallet, service_url must be set in /home/lccxfde9sno0/public_html/blockchain/blockchain/api-v1-client-php-master/src/Blockchain.php:97
+Stack trace:
+#0 /home/lccxfde9sno0/public_html/blockchain/blockchain/api-v1-client-php-master/src/Create/Create.php(39): Blockchain\Blockchain->post('api/v2/create', Array)
+#1 /home/lccxfde9sno0/public_html/blockchain/blockchain/api-v1-client-php-master/src/Create/Create.php(14): Blockchain\Create\Create->doCreate('weakPassword01!', NULL, NULL, NULL)
+#2 /home/lccxfde9sno0/public_html/blockchain/blockchain/api-v1-client-php-master/Welcome.php(11): Blockchain\Create\Create->create('weakPassword01!')
+#3 {main}
+  thrown in /home/lccxfde9sno0/public_html/blockchain/blockchain/api-v1-client-php-master/src/Blockchain.php on line 97
+[12-Oct-2020 14:47:34 UTC] PHP Fatal error:  Uncaught Blockchain\Exception\ApiError: When calling a merchant endpoint or creating a wallet, service_url must be set in /home/lccxfde9sno0/public_html/blockchain/blockchain/api-v1-client-php-master/src/Blockchain.php:97
+Stack trace:
+#0 /home/lccxfde9sno0/public_html/blockchain/blockchain/api-v1-client-php-master/src/Create/Create.php(39): Blockchain\Blockchain->post('api/v2/create', Array)
+#1 /home/lccxfde9sno0/public_html/blockchain/blockchain/api-v1-client-php-master/src/Create/Create.php(14): Blockchain\Create\Create->doCreate('weakPassword01!', NULL, NULL, NULL)
+#2 /home/lccxfde9sno0/public_html/blockchain/blockchain/api-v1-client-php-master/Welcome.php(11): Blockchain\Create\Create->create('weakPassword01!')
+#3 {main}
+  thrown in /home/lccxfde9sno0/public_html/blockchain/blockchain/api-v1-client-php-master/src/Blockchain.php on line 97
+[12-Oct-2020 14:48:23 UTC] PHP Fatal error:  Uncaught Blockchain\Exception\ApiError: When calling a merchant endpoint or creating a wallet, service_url must be set in /home/lccxfde9sno0/public_html/blockchain/blockchain/api-v1-client-php-master/src/Blockchain.php:97
+Stack trace:
+#0 /home/lccxfde9sno0/public_html/blockchain/blockchain/api-v1-client-php-master/src/Create/Create.php(39): Blockchain\Blockchain->post('api/v2/create', Array)
+#1 /home/lccxfde9sno0/public_html/blockchain/blockchain/api-v1-client-php-master/src/Create/Create.php(14): Blockchain\Create\Create->doCreate('weakPassword01!', NULL, NULL, NULL)
+#2 /home/lccxfde9sno0/public_html/blockchain/blockchain/api-v1-client-php-master/Welcome.php(12): Blockchain\Create\Create->create('weakPassword01!')
+#3 {main}
+  thrown in /home/lccxfde9sno0/public_html/blockchain/blockchain/api-v1-client-php-master/src/Blockchain.php on line 97
+[13-Oct-2020 14:09:24 UTC] PHP Fatal error:  Uncaught Blockchain\Exception\ApiError: When calling a merchant endpoint or creating a wallet, service_url must be set in /home/lccxfde9sno0/public_html/blockchain/blockchain/api-v1-client-php-master/src/Blockchain.php:97
+Stack trace:
+#0 /home/lccxfde9sno0/public_html/blockchain/blockchain/api-v1-client-php-master/src/Create/Create.php(39): Blockchain\Blockchain->post('api/v2/create', Array)
+#1 /home/lccxfde9sno0/public_html/blockchain/blockchain/api-v1-client-php-master/src/Create/Create.php(14): Blockchain\Create\Create->doCreate('weakPassword01!', NULL, NULL, NULL)
+#2 /home/lccxfde9sno0/public_html/blockchain/blockchain/api-v1-client-php-master/Welcome.php(12): Blockchain\Create\Create->create('weakPassword01!')
+#3 {main}
+  thrown in /home/lccxfde9sno0/public_html/blockchain/blockchain/api-v1-client-php-master/src/Blockchain.php on line 97
+[13-Oct-2020 14:21:03 UTC] PHP Fatal error:  Uncaught Blockchain\Exception\Error: Unable to decode JSON response from Blockchain:  in /home/lccxfde9sno0/public_html/blockchain/blockchain/api-v1-client-php-master/src/Blockchain.php:158
+Stack trace:
+#0 /home/lccxfde9sno0/public_html/blockchain/blockchain/api-v1-client-php-master/src/Blockchain.php(114): Blockchain\Blockchain->_call()
+#1 /home/lccxfde9sno0/public_html/blockchain/blockchain/api-v1-client-php-master/src/Create/Create.php(39): Blockchain\Blockchain->post('api/v2/create', Array)
+#2 /home/lccxfde9sno0/public_html/blockchain/blockchain/api-v1-client-php-master/src/Create/Create.php(14): Blockchain\Create\Create->doCreate('weakPassword01!', NULL, NULL, NULL)
+#3 /home/lccxfde9sno0/public_html/blockchain/blockchain/api-v1-client-php-master/Welcome.php(12): Blockchain\Create\Create->create('weakPassword01!')
+#4 {main}
+  thrown in /home/lccxfde9sno0/public_html/blockchain/blockchain/api-v1-client-php-master/src/Blockchain.php on line 158
+[13-Oct-2020 14:22:20 UTC] PHP Fatal error:  Uncaught Blockchain\Exception\Error: Unable to decode JSON response from Blockchain:  in /home/lccxfde9sno0/public_html/blockchain/blockchain/api-v1-client-php-master/src/Blockchain.php:158
+Stack trace:
+#0 /home/lccxfde9sno0/public_html/blockchain/blockchain/api-v1-client-php-master/src/Blockchain.php(114): Blockchain\Blockchain->_call()
+#1 /home/lccxfde9sno0/public_html/blockchain/blockchain/api-v1-client-php-master/src/Create/Create.php(39): Blockchain\Blockchain->post('api/v2/create', Array)
+#2 /home/lccxfde9sno0/public_html/blockchain/blockchain/api-v1-client-php-master/src/Create/Create.php(14): Blockchain\Create\Create->doCreate('weakPassword01!', NULL, NULL, NULL)
+#3 /home/lccxfde9sno0/public_html/blockchain/blockchain/api-v1-client-php-master/Welcome.php(12): Blockchain\Create\Create->create('weakPassword01!')
+#4 {main}
+  thrown in /home/lccxfde9sno0/public_html/blockchain/blockchain/api-v1-client-php-master/src/Blockchain.php on line 158
+[13-Oct-2020 14:24:46 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method Blockchain\Create\Create::create_wallet() in /home/lccxfde9sno0/public_html/blockchain/blockchain/api-v1-client-php-master/Welcome.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/lccxfde9sno0/public_html/blockchain/blockchain/api-v1-client-php-master/Welcome.php on line 12
+[13-Oct-2020 14:25:16 UTC] PHP Fatal error:  Uncaught Blockchain\Exception\Error: Unable to decode JSON response from Blockchain:  in /home/lccxfde9sno0/public_html/blockchain/blockchain/api-v1-client-php-master/src/Blockchain.php:158
+Stack trace:
+#0 /home/lccxfde9sno0/public_html/blockchain/blockchain/api-v1-client-php-master/src/Blockchain.php(114): Blockchain\Blockchain->_call()
+#1 /home/lccxfde9sno0/public_html/blockchain/blockchain/api-v1-client-php-master/src/Create/Create.php(39): Blockchain\Blockchain->post('api/v2/create', Array)
+#2 /home/lccxfde9sno0/public_html/blockchain/blockchain/api-v1-client-php-master/src/Create/Create.php(14): Blockchain\Create\Create->doCreate('weakPassword01!', NULL, NULL, NULL)
+#3 /home/lccxfde9sno0/public_html/blockchain/blockchain/api-v1-client-php-master/Welcome.php(12): Blockchain\Create\Create->create('weakPassword01!')
+#4 {main}
+  thrown in /home/lccxfde9sno0/public_html/blockchain/blockchain/api-v1-client-php-master/src/Blockchain.php on line 158
+[13-Oct-2020 14:30:19 UTC] PHP Fatal error:  Uncaught Blockchain\Exception\Error: Unable to decode JSON response from Blockchain:  in /home/lccxfde9sno0/public_html/blockchain/blockchain/api-v1-client-php-master/src/Blockchain.php:158
+Stack trace:
+#0 /home/lccxfde9sno0/public_html/blockchain/blockchain/api-v1-client-php-master/src/Blockchain.php(114): Blockchain\Blockchain->_call()
+#1 /home/lccxfde9sno0/public_html/blockchain/blockchain/api-v1-client-php-master/src/Wallet/Wallet.php(47): Blockchain\Blockchain->post('merchant/9b02bd...', Array)
+#2 /home/lccxfde9sno0/public_html/blockchain/blockchain/api-v1-client-php-master/src/Wallet/Wallet.php(55): Blockchain\Wallet\Wallet->call('balance')
+#3 /home/lccxfde9sno0/public_html/blockchain/blockchain/api-v1-client-php-master/Welcome.php(24): Blockchain\Wallet\Wallet->getBalance()
+#4 {main}
+  thrown in /home/lccxfde9sno0/public_html/blockchain/blockchain/api-v1-client-php-master/src/Blockchain.php on line 158
+[13-Oct-2020 14:32:32 UTC] PHP Fatal error:  Uncaught Blockchain\Exception\Error: Unable to decode JSON response from Blockchain:  in /home/lccxfde9sno0/public_html/blockchain/blockchain/api-v1-client-php-master/src/Blockchain.php:158
+Stack trace:
+#0 /home/lccxfde9sno0/public_html/blockchain/blockchain/api-v1-client-php-master/src/Blockchain.php(114): Blockchain\Blockchain->_call()
+#1 /home/lccxfde9sno0/public_html/blockchain/blockchain/api-v1-client-php-master/src/Wallet/Wallet.php(47): Blockchain\Blockchain->post('merchant/9b02bd...', Array)
+#2 /home/lccxfde9sno0/public_html/blockchain/blockchain/api-v1-client-php-master/src/Wallet/Wallet.php(55): Blockchain\Wallet\Wallet->call('balance')
+#3 /home/lccxfde9sno0/public_html/blockchain/blockchain/api-v1-client-php-master/Welcome.php(24): Blockchain\Wallet\Wallet->getBalance()
+#4 {main}
+  thrown in /home/lccxfde9sno0/public_html/blockchain/blockchain/api-v1-client-php-master/src/Blockchain.php on line 158
+[13-Oct-2020 14:33:29 UTC] PHP Fatal error:  Uncaught Blockchain\Exception\Error: Unable to decode JSON response from Blockchain:  in /home/lccxfde9sno0/public_html/blockchain/blockchain/api-v1-client-php-master/src/Blockchain.php:158
+Stack trace:
+#0 /home/lccxfde9sno0/public_html/blockchain/blockchain/api-v1-client-php-master/src/Blockchain.php(114): Blockchain\Blockchain->_call()
+#1 /home/lccxfde9sno0/public_html/blockchain/blockchain/api-v1-client-php-master/src/Wallet/Wallet.php(47): Blockchain\Blockchain->post('merchant/9b02bd...', Array)
+#2 /home/lccxfde9sno0/public_html/blockchain/blockchain/api-v1-client-php-master/src/Wallet/Wallet.php(55): Blockchain\Wallet\Wallet->call('balance')
+#3 /home/lccxfde9sno0/public_html/blockchain/blockchain/api-v1-client-php-master/Welcome.php(24): Blockchain\Wallet\Wallet->getBalance()
+#4 {main}
+  thrown in /home/lccxfde9sno0/public_html/blockchain/blockchain/api-v1-client-php-master/src/Blockchain.php on line 158
+[13-Oct-2020 14:33:37 UTC] PHP Fatal error:  Uncaught Blockchain\Exception\Error: Unable to decode JSON response from Blockchain:  in /home/lccxfde9sno0/public_html/blockchain/blockchain/api-v1-client-php-master/src/Blockchain.php:158
+Stack trace:
+#0 /home/lccxfde9sno0/public_html/blockchain/blockchain/api-v1-client-php-master/src/Blockchain.php(114): Blockchain\Blockchain->_call()
+#1 /home/lccxfde9sno0/public_html/blockchain/blockchain/api-v1-client-php-master/src/Wallet/Wallet.php(47): Blockchain\Blockchain->post('merchant/9b02bd...', Array)
+#2 /home/lccxfde9sno0/public_html/blockchain/blockchain/api-v1-client-php-master/src/Wallet/Wallet.php(55): Blockchain\Wallet\Wallet->call('balance')
+#3 /home/lccxfde9sno0/public_html/blockchain/blockchain/api-v1-client-php-master/Welcome.php(24): Blockchain\Wallet\Wallet->getBalance()
+#4 {main}
+  thrown in /home/lccxfde9sno0/public_html/blockchain/blockchain/api-v1-client-php-master/src/Blockchain.php on line 158
+[13-Oct-2020 14:34:20 UTC] PHP Fatal error:  Uncaught Blockchain\Exception\Error: Unable to decode JSON response from Blockchain:  in /home/lccxfde9sno0/public_html/blockchain/blockchain/api-v1-client-php-master/src/Blockchain.php:158
+Stack trace:
+#0 /home/lccxfde9sno0/public_html/blockchain/blockchain/api-v1-client-php-master/src/Blockchain.php(114): Blockchain\Blockchain->_call()
+#1 /home/lccxfde9sno0/public_html/blockchain/blockchain/api-v1-client-php-master/src/Wallet/Wallet.php(47): Blockchain\Blockchain->post('merchant/9b02bd...', Array)
+#2 /home/lccxfde9sno0/public_html/blockchain/blockchain/api-v1-client-php-master/src/Wallet/Wallet.php(55): Blockchain\Wallet\Wallet->call('balance')
+#3 /home/lccxfde9sno0/public_html/blockchain/blockchain/api-v1-client-php-master/Welcome.php(24): Blockchain\Wallet\Wallet->getBalance()
+#4 {main}
+  thrown in /home/lccxfde9sno0/public_html/blockchain/blockchain/api-v1-client-php-master/src/Blockchain.php on line 158
+[13-Oct-2020 14:34:23 UTC] PHP Fatal error:  Uncaught Blockchain\Exception\Error: Unable to decode JSON response from Blockchain:  in /home/lccxfde9sno0/public_html/blockchain/blockchain/api-v1-client-php-master/src/Blockchain.php:158
+Stack trace:
+#0 /home/lccxfde9sno0/public_html/blockchain/blockchain/api-v1-client-php-master/src/Blockchain.php(114): Blockchain\Blockchain->_call()
+#1 /home/lccxfde9sno0/public_html/blockchain/blockchain/api-v1-client-php-master/src/Wallet/Wallet.php(47): Blockchain\Blockchain->post('merchant/9b02bd...', Array)
+#2 /home/lccxfde9sno0/public_html/blockchain/blockchain/api-v1-client-php-master/src/Wallet/Wallet.php(55): Blockchain\Wallet\Wallet->call('balance')
+#3 /home/lccxfde9sno0/public_html/blockchain/blockchain/api-v1-client-php-master/Welcome.php(24): Blockchain\Wallet\Wallet->getBalance()
+#4 {main}
+  thrown in /home/lccxfde9sno0/public_html/blockchain/blockchain/api-v1-client-php-master/src/Blockchain.php on line 158
+[13-Oct-2020 14:34:24 UTC] PHP Fatal error:  Uncaught Blockchain\Exception\Error: Unable to decode JSON response from Blockchain:  in /home/lccxfde9sno0/public_html/blockchain/blockchain/api-v1-client-php-master/src/Blockchain.php:158
+Stack trace:
+#0 /home/lccxfde9sno0/public_html/blockchain/blockchain/api-v1-client-php-master/src/Blockchain.php(114): Blockchain\Blockchain->_call()
+#1 /home/lccxfde9sno0/public_html/blockchain/blockchain/api-v1-client-php-master/src/Wallet/Wallet.php(47): Blockchain\Blockchain->post('merchant/9b02bd...', Array)
+#2 /home/lccxfde9sno0/public_html/blockchain/blockchain/api-v1-client-php-master/src/Wallet/Wallet.php(55): Blockchain\Wallet\Wallet->call('balance')
+#3 /home/lccxfde9sno0/public_html/blockchain/blockchain/api-v1-client-php-master/Welcome.php(24): Blockchain\Wallet\Wallet->getBalance()
+#4 {main}
+  thrown in /home/lccxfde9sno0/public_html/blockchain/blockchain/api-v1-client-php-master/src/Blockchain.php on line 158
+[13-Oct-2020 14:38:31 UTC] PHP Fatal error:  Uncaught Blockchain\Exception\Error: Unable to decode JSON response from Blockchain:  in /home/lccxfde9sno0/public_html/blockchain/blockchain/api-v1-client-php-master/src/Blockchain.php:159
+Stack trace:
+#0 /home/lccxfde9sno0/public_html/blockchain/blockchain/api-v1-client-php-master/src/Blockchain.php(115): Blockchain\Blockchain->_call()
+#1 /home/lccxfde9sno0/public_html/blockchain/blockchain/api-v1-client-php-master/src/Wallet/Wallet.php(47): Blockchain\Blockchain->post('merchant/9b02bd...', Array)
+#2 /home/lccxfde9sno0/public_html/blockchain/blockchain/api-v1-client-php-master/src/Wallet/Wallet.php(55): Blockchain\Wallet\Wallet->call('balance')
+#3 /home/lccxfde9sno0/public_html/blockchain/blockchain/api-v1-client-php-master/Welcome.php(24): Blockchain\Wallet\Wallet->getBalance()
+#4 {main}
+  thrown in /home/lccxfde9sno0/public_html/blockchain/blockchain/api-v1-client-php-master/src/Blockchain.php on line 159
+[14-Oct-2020 07:51:00 UTC] PHP Fatal error:  Uncaught Blockchain\Exception\Error: Unable to decode JSON response from Blockchain:  in /home/lccxfde9sno0/public_html/blockchain/blockchain/api-v1-client-php-master/src/Blockchain.php:159
+Stack trace:
+#0 /home/lccxfde9sno0/public_html/blockchain/blockchain/api-v1-client-php-master/src/Blockchain.php(115): Blockchain\Blockchain->_call()
+#1 /home/lccxfde9sno0/public_html/blockchain/blockchain/api-v1-client-php-master/src/Wallet/Wallet.php(47): Blockchain\Blockchain->post('merchant/9b02bd...', Array)
+#2 /home/lccxfde9sno0/public_html/blockchain/blockchain/api-v1-client-php-master/src/Wallet/Wallet.php(55): Blockchain\Wallet\Wallet->call('balance')
+#3 /home/lccxfde9sno0/public_html/blockchain/blockchain/api-v1-client-php-master/Welcome.php(24): Blockchain\Wallet\Wallet->getBalance()
+#4 {main}
+  thrown in /home/lccxfde9sno0/public_html/blockchain/blockchain/api-v1-client-php-master/src/Blockchain.php on line 159
+[14-Oct-2020 07:51:55 UTC] PHP Fatal error:  Uncaught Blockchain\Exception\Error: Unable to decode JSON response from Blockchain:  in /home/lccxfde9sno0/public_html/blockchain/blockchain/api-v1-client-php-master/src/Blockchain.php:159
+Stack trace:
+#0 /home/lccxfde9sno0/public_html/blockchain/blockchain/api-v1-client-php-master/src/Blockchain.php(115): Blockchain\Blockchain->_call()
+#1 /home/lccxfde9sno0/public_html/blockchain/blockchain/api-v1-client-php-master/src/Wallet/Wallet.php(47): Blockchain\Blockchain->post('merchant/9b02bd...', Array)
+#2 /home/lccxfde9sno0/public_html/blockchain/blockchain/api-v1-client-php-master/src/Wallet/Wallet.php(55): Blockchain\Wallet\Wallet->call('balance')
+#3 /home/lccxfde9sno0/public_html/blockchain/blockchain/api-v1-client-php-master/Welcome.php(24): Blockchain\Wallet\Wallet->getBalance()
+#4 {main}
+  thrown in /home/lccxfde9sno0/public_html/blockchain/blockchain/api-v1-client-php-master/src/Blockchain.php on line 159
+[14-Oct-2020 07:51:59 UTC] PHP Fatal error:  Uncaught Blockchain\Exception\Error: Unable to decode JSON response from Blockchain:  in /home/lccxfde9sno0/public_html/blockchain/blockchain/api-v1-client-php-master/src/Blockchain.php:159
+Stack trace:
+#0 /home/lccxfde9sno0/public_html/blockchain/blockchain/api-v1-client-php-master/src/Blockchain.php(115): Blockchain\Blockchain->_call()
+#1 /home/lccxfde9sno0/public_html/blockchain/blockchain/api-v1-client-php-master/src/Wallet/Wallet.php(47): Blockchain\Blockchain->post('merchant/9b02bd...', Array)
+#2 /home/lccxfde9sno0/public_html/blockchain/blockchain/api-v1-client-php-master/src/Wallet/Wallet.php(55): Blockchain\Wallet\Wallet->call('balance')
+#3 /home/lccxfde9sno0/public_html/blockchain/blockchain/api-v1-client-php-master/Welcome.php(24): Blockchain\Wallet\Wallet->getBalance()
+#4 {main}
+  thrown in /home/lccxfde9sno0/public_html/blockchain/blockchain/api-v1-client-php-master/src/Blockchain.php on line 159
+[14-Oct-2020 08:30:22 UTC] PHP Fatal error:  Uncaught Blockchain\Exception\HttpError: Call to http://localhost:3000/merchant/9b02bd2d-34cc-4565-9cbf-d7323204d762/balance failed: Failed to connect to localhost port 3000: Connection refused in /home/lccxfde9sno0/public_html/blockchain/blockchain/api-v1-client-php-master/src/Blockchain.php:152
+Stack trace:
+#0 /home/lccxfde9sno0/public_html/blockchain/blockchain/api-v1-client-php-master/src/Blockchain.php(115): Blockchain\Blockchain->_call()
+#1 /home/lccxfde9sno0/public_html/blockchain/blockchain/api-v1-client-php-master/src/Wallet/Wallet.php(47): Blockchain\Blockchain->post('merchant/9b02bd...', Array)
+#2 /home/lccxfde9sno0/public_html/blockchain/blockchain/api-v1-client-php-master/src/Wallet/Wallet.php(55): Blockchain\Wallet\Wallet->call('balance')
+#3 /home/lccxfde9sno0/public_html/blockchain/blockchain/api-v1-client-php-master/Welcome.php(25): Blockchain\Wallet\Wallet->getBalance()
+#4 {main}
+  thrown in /home/lccxfde9sno0/public_html/blockchain/blockchain/api-v1-client-php-master/src/Blockchain.php on line 152
+[14-Oct-2020 13:32:14 UTC] PHP Fatal error:  Uncaught Blockchain\Exception\HttpError: Call to http://localhost:3000/merchant/9b02bd2d-34cc-4565-9cbf-d7323204d762/balance failed: Failed to connect to localhost port 3000: Connection refused in /home/lccxfde9sno0/public_html/blockchain/blockchain/api-v1-client-php-master/src/Blockchain.php:152
+Stack trace:
+#0 /home/lccxfde9sno0/public_html/blockchain/blockchain/api-v1-client-php-master/src/Blockchain.php(115): Blockchain\Blockchain->_call()
+#1 /home/lccxfde9sno0/public_html/blockchain/blockchain/api-v1-client-php-master/src/Wallet/Wallet.php(47): Blockchain\Blockchain->post('merchant/9b02bd...', Array)
+#2 /home/lccxfde9sno0/public_html/blockchain/blockchain/api-v1-client-php-master/src/Wallet/Wallet.php(55): Blockchain\Wallet\Wallet->call('balance')
+#3 /home/lccxfde9sno0/public_html/blockchain/blockchain/api-v1-client-php-master/Welcome.php(25): Blockchain\Wallet\Wallet->getBalance()
+#4 {main}
+  thrown in /home/lccxfde9sno0/public_html/blockchain/blockchain/api-v1-client-php-master/src/Blockchain.php on line 152
+[14-Oct-2020 14:10:10 UTC] PHP Fatal error:  Uncaught Blockchain\Exception\HttpError: Call to http://localhost:3000/merchant/9b02bd2d-34cc-4565-9cbf-d7323204d762/balance failed: Failed to connect to localhost port 3000: Connection refused in /home/lccxfde9sno0/public_html/blockchain/blockchain/api-v1-client-php-master/src/Blockchain.php:152
+Stack trace:
+#0 /home/lccxfde9sno0/public_html/blockchain/blockchain/api-v1-client-php-master/src/Blockchain.php(115): Blockchain\Blockchain->_call()
+#1 /home/lccxfde9sno0/public_html/blockchain/blockchain/api-v1-client-php-master/src/Wallet/Wallet.php(47): Blockchain\Blockchain->post('merchant/9b02bd...', Array)
+#2 /home/lccxfde9sno0/public_html/blockchain/blockchain/api-v1-client-php-master/src/Wallet/Wallet.php(55): Blockchain\Wallet\Wallet->call('balance')
+#3 /home/lccxfde9sno0/public_html/blockchain/blockchain/api-v1-client-php-master/wallet.php(26): Blockchain\Wallet\Wallet->getBalance()
+#4 {main}
+  thrown in /home/lccxfde9sno0/public_html/blockchain/blockchain/api-v1-client-php-master/src/Blockchain.php on line 152
+[14-Oct-2020 14:11:23 UTC] PHP Fatal error:  Uncaught Blockchain\Exception\HttpError: Call to http://localhost:3000/merchant/merchant/9b02bd2d-34cc-4565-9cbf-d7323204d762/balance failed: Failed to connect to localhost port 3000: Connection refused in /home/lccxfde9sno0/public_html/blockchain/blockchain/api-v1-client-php-master/src/Blockchain.php:152
+Stack trace:
+#0 /home/lccxfde9sno0/public_html/blockchain/blockchain/api-v1-client-php-master/src/Blockchain.php(115): Blockchain\Blockchain->_call()
+#1 /home/lccxfde9sno0/public_html/blockchain/blockchain/api-v1-client-php-master/src/Wallet/Wallet.php(47): Blockchain\Blockchain->post('merchant/9b02bd...', Array)
+#2 /home/lccxfde9sno0/public_html/blockchain/blockchain/api-v1-client-php-master/src/Wallet/Wallet.php(55): Blockchain\Wallet\Wallet->call('balance')
+#3 /home/lccxfde9sno0/public_html/blockchain/blockchain/api-v1-client-php-master/wallet.php(26): Blockchain\Wallet\Wallet->getBalance()
+#4 {main}
+  thrown in /home/lccxfde9sno0/public_html/blockchain/blockchain/api-v1-client-php-master/src/Blockchain.php on line 152
+[14-Oct-2020 14:12:45 UTC] PHP Fatal error:  Uncaught Blockchain\Exception\HttpError: Call to http://localhost:3000/merchant/9b02bd2d-34cc-4565-9cbf-d7323204d762/balance failed: Failed to connect to localhost port 3000: Connection refused in /home/lccxfde9sno0/public_html/blockchain/blockchain/api-v1-client-php-master/src/Blockchain.php:152
+Stack trace:
+#0 /home/lccxfde9sno0/public_html/blockchain/blockchain/api-v1-client-php-master/src/Blockchain.php(115): Blockchain\Blockchain->_call()
+#1 /home/lccxfde9sno0/public_html/blockchain/blockchain/api-v1-client-php-master/src/Wallet/Wallet.php(47): Blockchain\Blockchain->post('merchant/9b02bd...', Array)
+#2 /home/lccxfde9sno0/public_html/blockchain/blockchain/api-v1-client-php-master/src/Wallet/Wallet.php(55): Blockchain\Wallet\Wallet->call('balance')
+#3 /home/lccxfde9sno0/public_html/blockchain/blockchain/api-v1-client-php-master/wallet.php(26): Blockchain\Wallet\Wallet->getBalance()
+#4 {main}
+  thrown in /home/lccxfde9sno0/public_html/blockchain/blockchain/api-v1-client-php-master/src/Blockchain.php on line 152
+[14-Oct-2020 14:14:35 UTC] PHP Fatal error:  Uncaught Blockchain\Exception\HttpError: Call to http://localhost:3000/merchant/9b02bd2d-34cc-4565-9cbf-d7323204d762/new_address failed: Failed to connect to localhost port 3000: Connection refused in /home/lccxfde9sno0/public_html/blockchain/blockchain/api-v1-client-php-master/src/Blockchain.php:152
+Stack trace:
+#0 /home/lccxfde9sno0/public_html/blockchain/blockchain/api-v1-client-php-master/src/Blockchain.php(115): Blockchain\Blockchain->_call()
+#1 /home/lccxfde9sno0/public_html/blockchain/blockchain/api-v1-client-php-master/src/Wallet/Wallet.php(47): Blockchain\Blockchain->post('merchant/9b02bd...', Array)
+#2 /home/lccxfde9sno0/public_html/blockchain/blockchain/api-v1-client-php-master/src/Wallet/Wallet.php(77): Blockchain\Wallet\Wallet->call('new_address', Array)
+#3 /home/lccxfde9sno0/public_html/blockchain/blockchain/api-v1-client-php-master/wallet.php(28): Blockchain\Wallet\Wallet->getNewAddress('Programmaticall...')
+#4 {main}
+  thrown in /home/lccxfde9sno0/public_html/blockchain/blockchain/api-v1-client-php-master/src/Blockchain.php on line 152
+[14-Oct-2020 14:16:23 UTC] PHP Fatal error:  Uncaught Blockchain\Exception\HttpError: Call to http://localhost:3000/merchant/9b02bd2d-34cc-4565-9cbf-d7323204d762/new_address failed: Failed to connect to localhost port 3000: Connection refused in /home/lccxfde9sno0/public_html/blockchain/blockchain/api-v1-client-php-master/src/Blockchain.php:152
+Stack trace:
+#0 /home/lccxfde9sno0/public_html/blockchain/blockchain/api-v1-client-php-master/src/Blockchain.php(115): Blockchain\Blockchain->_call()
+#1 /home/lccxfde9sno0/public_html/blockchain/blockchain/api-v1-client-php-master/src/Wallet/Wallet.php(47): Blockchain\Blockchain->post('merchant/9b02bd...', Array)
+#2 /home/lccxfde9sno0/public_html/blockchain/blockchain/api-v1-client-php-master/src/Wallet/Wallet.php(77): Blockchain\Wallet\Wallet->call('new_address', Array)
+#3 /home/lccxfde9sno0/public_html/blockchain/blockchain/api-v1-client-php-master/wallet.php(24): Blockchain\Wallet\Wallet->getNewAddress()
+#4 {main}
+  thrown in /home/lccxfde9sno0/public_html/blockchain/blockchain/api-v1-client-php-master/src/Blockchain.php on line 152
+[14-Oct-2020 14:17:45 UTC] PHP Fatal error:  Uncaught Blockchain\Exception\HttpError: Call to http://localhost:3000/merchant/9b02bd2d-34cc-4565-9cbf-d7323204d762/balance failed: Failed to connect to localhost port 3000: Connection refused in /home/lccxfde9sno0/public_html/blockchain/blockchain/api-v1-client-php-master/src/Blockchain.php:152
+Stack trace:
+#0 /home/lccxfde9sno0/public_html/blockchain/blockchain/api-v1-client-php-master/src/Blockchain.php(115): Blockchain\Blockchain->_call()
+#1 /home/lccxfde9sno0/public_html/blockchain/blockchain/api-v1-client-php-master/src/Wallet/Wallet.php(47): Blockchain\Blockchain->post('merchant/9b02bd...', Array)
+#2 /home/lccxfde9sno0/public_html/blockchain/blockchain/api-v1-client-php-master/src/Wallet/Wallet.php(55): Blockchain\Wallet\Wallet->call('balance')
+#3 /home/lccxfde9sno0/public_html/blockchain/blockchain/api-v1-client-php-master/wallet.php(26): Blockchain\Wallet\Wallet->getBalance()
+#4 {main}
+  thrown in /home/lccxfde9sno0/public_html/blockchain/blockchain/api-v1-client-php-master/src/Blockchain.php on line 152
+[14-Oct-2020 14:18:19 UTC] PHP Fatal error:  Uncaught Blockchain\Exception\HttpError: Call to http://localhost:3000/merchant/9b02bd2d-34cc-4565-9cbf-d7323204d762/balance failed: Failed to connect to localhost port 3000: Connection refused in /home/lccxfde9sno0/public_html/blockchain/blockchain/api-v1-client-php-master/src/Blockchain.php:152
+Stack trace:
+#0 /home/lccxfde9sno0/public_html/blockchain/blockchain/api-v1-client-php-master/src/Blockchain.php(115): Blockchain\Blockchain->_call()
+#1 /home/lccxfde9sno0/public_html/blockchain/blockchain/api-v1-client-php-master/src/Wallet/Wallet.php(47): Blockchain\Blockchain->post('merchant/9b02bd...', Array)
+#2 /home/lccxfde9sno0/public_html/blockchain/blockchain/api-v1-client-php-master/src/Wallet/Wallet.php(56): Blockchain\Wallet\Wallet->call('balance')
+#3 /home/lccxfde9sno0/public_html/blockchain/blockchain/api-v1-client-php-master/wallet.php(26): Blockchain\Wallet\Wallet->getBalance()
+#4 {main}
+  thrown in /home/lccxfde9sno0/public_html/blockchain/blockchain/api-v1-client-php-master/src/Blockchain.php on line 152
+[14-Oct-2020 14:18:53 UTC] PHP Fatal error:  Uncaught Blockchain\Exception\Error: Unable to decode JSON response from Blockchain:  in /home/lccxfde9sno0/public_html/blockchain/blockchain/api-v1-client-php-master/src/Blockchain.php:159
+Stack trace:
+#0 /home/lccxfde9sno0/public_html/blockchain/blockchain/api-v1-client-php-master/src/Blockchain.php(115): Blockchain\Blockchain->_call()
+#1 /home/lccxfde9sno0/public_html/blockchain/blockchain/api-v1-client-php-master/src/Wallet/Wallet.php(47): Blockchain\Blockchain->post('merchant/9b02bd...', Array)
+#2 /home/lccxfde9sno0/public_html/blockchain/blockchain/api-v1-client-php-master/src/Wallet/Wallet.php(56): Blockchain\Wallet\Wallet->call('balance')
+#3 /home/lccxfde9sno0/public_html/blockchain/blockchain/api-v1-client-php-master/wallet.php(26): Blockchain\Wallet\Wallet->getBalance()
+#4 {main}
+  thrown in /home/lccxfde9sno0/public_html/blockchain/blockchain/api-v1-client-php-master/src/Blockchain.php on line 159
+[14-Oct-2020 14:19:44 UTC] PHP Fatal error:  Uncaught Blockchain\Exception\ApiError: When calling a merchant endpoint or creating a wallet, service_url must be set in /home/lccxfde9sno0/public_html/blockchain/blockchain/api-v1-client-php-master/src/Blockchain.php:98
+Stack trace:
+#0 /home/lccxfde9sno0/public_html/blockchain/blockchain/api-v1-client-php-master/src/Wallet/Wallet.php(47): Blockchain\Blockchain->post('merchant/9b02bd...', Array)
+#1 /home/lccxfde9sno0/public_html/blockchain/blockchain/api-v1-client-php-master/src/Wallet/Wallet.php(56): Blockchain\Wallet\Wallet->call('balance')
+#2 /home/lccxfde9sno0/public_html/blockchain/blockchain/api-v1-client-php-master/wallet.php(26): Blockchain\Wallet\Wallet->getBalance()
+#3 {main}
+  thrown in /home/lccxfde9sno0/public_html/blockchain/blockchain/api-v1-client-php-master/src/Blockchain.php on line 98
+[14-Oct-2020 14:19:47 UTC] PHP Fatal error:  Uncaught Blockchain\Exception\ApiError: When calling a merchant endpoint or creating a wallet, service_url must be set in /home/lccxfde9sno0/public_html/blockchain/blockchain/api-v1-client-php-master/src/Blockchain.php:98
+Stack trace:
+#0 /home/lccxfde9sno0/public_html/blockchain/blockchain/api-v1-client-php-master/src/Wallet/Wallet.php(47): Blockchain\Blockchain->post('merchant/9b02bd...', Array)
+#1 /home/lccxfde9sno0/public_html/blockchain/blockchain/api-v1-client-php-master/src/Wallet/Wallet.php(56): Blockchain\Wallet\Wallet->call('balance')
+#2 /home/lccxfde9sno0/public_html/blockchain/blockchain/api-v1-client-php-master/wallet.php(26): Blockchain\Wallet\Wallet->getBalance()
+#3 {main}
+  thrown in /home/lccxfde9sno0/public_html/blockchain/blockchain/api-v1-client-php-master/src/Blockchain.php on line 98
+[14-Oct-2020 14:22:35 UTC] PHP Fatal error:  Uncaught Error: Class 'Blockchain' not found in /home/lccxfde9sno0/public_html/blockchain/blockchain/api-v1-client-php-master/wallet.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/lccxfde9sno0/public_html/blockchain/blockchain/api-v1-client-php-master/wallet.php on line 11
+[14-Oct-2020 14:26:29 UTC] PHP Fatal error:  Uncaught Blockchain\Exception\HttpError: Call to http://localhost:3000/merchant/9b02bd2d-34cc-4565-9cbf-d7323204d762/balance failed: Failed to connect to localhost port 3000: Connection refused in /home/lccxfde9sno0/public_html/blockchain/blockchain/api-v1-client-php-master/src/Blockchain.php:152
+Stack trace:
+#0 /home/lccxfde9sno0/public_html/blockchain/blockchain/api-v1-client-php-master/src/Blockchain.php(115): Blockchain\Blockchain->_call()
+#1 /home/lccxfde9sno0/public_html/blockchain/blockchain/api-v1-client-php-master/src/Wallet/Wallet.php(47): Blockchain\Blockchain->post('merchant/9b02bd...', Array)
+#2 /home/lccxfde9sno0/public_html/blockchain/blockchain/api-v1-client-php-master/src/Wallet/Wallet.php(56): Blockchain\Wallet\Wallet->call('balance')
+#3 /home/lccxfde9sno0/public_html/blockchain/blockchain/api-v1-client-php-master/wallet.php(26): Blockchain\Wallet\Wallet->getBalance()
+#4 {main}
+  thrown in /home/lccxfde9sno0/public_html/blockchain/blockchain/api-v1-client-php-master/src/Blockchain.php on line 152
+[14-Oct-2020 14:28:25 UTC] PHP Fatal error:  Uncaught Blockchain\Exception\HttpError: Call to http://localhost:3000/merchant/9b02bd2d-34cc-4565-9cbf-d7323204d762/balance failed: Failed to connect to localhost port 3000: Connection refused in /home/lccxfde9sno0/public_html/blockchain/blockchain/api-v1-client-php-master/src/Blockchain.php:152
+Stack trace:
+#0 /home/lccxfde9sno0/public_html/blockchain/blockchain/api-v1-client-php-master/src/Blockchain.php(115): Blockchain\Blockchain->_call()
+#1 /home/lccxfde9sno0/public_html/blockchain/blockchain/api-v1-client-php-master/src/Wallet/Wallet.php(48): Blockchain\Blockchain->post('merchant/9b02bd...', Array)
+#2 /home/lccxfde9sno0/public_html/blockchain/blockchain/api-v1-client-php-master/src/Wallet/Wallet.php(56): Blockchain\Wallet\Wallet->call('balance')
+#3 /home/lccxfde9sno0/public_html/blockchain/blockchain/api-v1-client-php-master/wallet.php(26): Blockchain\Wallet\Wallet->getBalance()
+#4 {main}
+  thrown in /home/lccxfde9sno0/public_html/blockchain/blockchain/api-v1-client-php-master/src/Blockchain.php on line 152
+[14-Oct-2020 14:29:00 UTC] PHP Notice:  Array to string conversion in /home/lccxfde9sno0/public_html/blockchain/blockchain/api-v1-client-php-master/src/Wallet/Wallet.php on line 47
+[14-Oct-2020 14:29:00 UTC] PHP Fatal error:  Uncaught Blockchain\Exception\HttpError: Call to http://localhost:3000/merchant/9b02bd2d-34cc-4565-9cbf-d7323204d762/balance failed: Failed to connect to localhost port 3000: Connection refused in /home/lccxfde9sno0/public_html/blockchain/blockchain/api-v1-client-php-master/src/Blockchain.php:152
+Stack trace:
+#0 /home/lccxfde9sno0/public_html/blockchain/blockchain/api-v1-client-php-master/src/Blockchain.php(115): Blockchain\Blockchain->_call()
+#1 /home/lccxfde9sno0/public_html/blockchain/blockchain/api-v1-client-php-master/src/Wallet/Wallet.php(48): Blockchain\Blockchain->post('merchant/9b02bd...', Array)
+#2 /home/lccxfde9sno0/public_html/blockchain/blockchain/api-v1-client-php-master/src/Wallet/Wallet.php(56): Blockchain\Wallet\Wallet->call('balance')
+#3 /home/lccxfde9sno0/public_html/blockchain/blockchain/api-v1-client-php-master/wallet.php(26): Blockchain\Wallet\Wallet->getBalance()
+#4 {main}
+  thrown in /home/lccxfde9sno0/public_html/blockchain/blockchain/api-v1-client-php-master/src/Blockchain.php on line 152
+[14-Oct-2020 14:29:27 UTC] PHP Fatal error:  Uncaught Blockchain\Exception\HttpError: Call to http://localhost:3000/merchant/9b02bd2d-34cc-4565-9cbf-d7323204d762/balance failed: Failed to connect to localhost port 3000: Connection refused in /home/lccxfde9sno0/public_html/blockchain/blockchain/api-v1-client-php-master/src/Blockchain.php:152
+Stack trace:
+#0 /home/lccxfde9sno0/public_html/blockchain/blockchain/api-v1-client-php-master/src/Blockchain.php(115): Blockchain\Blockchain->_call()
+#1 /home/lccxfde9sno0/public_html/blockchain/blockchain/api-v1-client-php-master/src/Wallet/Wallet.php(49): Blockchain\Blockchain->post('merchant/9b02bd...', Array)
+#2 /home/lccxfde9sno0/public_html/blockchain/blockchain/api-v1-client-php-master/src/Wallet/Wallet.php(57): Blockchain\Wallet\Wallet->call('balance')
+#3 /home/lccxfde9sno0/public_html/blockchain/blockchain/api-v1-client-php-master/wallet.php(26): Blockchain\Wallet\Wallet->getBalance()
+#4 {main}
+  thrown in /home/lccxfde9sno0/public_html/blockchain/blockchain/api-v1-client-php-master/src/Blockchain.php on line 152
+[14-Oct-2020 14:36:27 UTC] PHP Notice:  Undefined variable: password in /home/lccxfde9sno0/public_html/blockchain/blockchain/api-v1-client-php-master/wallet.php on line 23
+[14-Oct-2020 14:36:27 UTC] PHP Fatal error:  Uncaught Blockchain\Exception\ParameterError: Password required. in /home/lccxfde9sno0/public_html/blockchain/blockchain/api-v1-client-php-master/src/Create/Create.php:26
+Stack trace:
+#0 /home/lccxfde9sno0/public_html/blockchain/blockchain/api-v1-client-php-master/src/Create/Create.php(14): Blockchain\Create\Create->doCreate(NULL, NULL, NULL, NULL)
+#1 /home/lccxfde9sno0/public_html/blockchain/blockchain/api-v1-client-php-master/wallet.php(23): Blockchain\Create\Create->create(NULL, NULL, NULL)
+#2 {main}
+  thrown in /home/lccxfde9sno0/public_html/blockchain/blockchain/api-v1-client-php-master/src/Create/Create.php on line 26
+[14-Oct-2020 14:38:08 UTC] PHP Fatal error:  Uncaught Blockchain\Exception\HttpError: Call to http://localhost:3000/api/v2/create failed: Failed to connect to localhost port 3000: Connection refused in /home/lccxfde9sno0/public_html/blockchain/blockchain/api-v1-client-php-master/src/Blockchain.php:152
+Stack trace:
+#0 /home/lccxfde9sno0/public_html/blockchain/blockchain/api-v1-client-php-master/src/Blockchain.php(115): Blockchain\Blockchain->_call()
+#1 /home/lccxfde9sno0/public_html/blockchain/blockchain/api-v1-client-php-master/src/Create/Create.php(39): Blockchain\Blockchain->post('api/v2/create', Array)
+#2 /home/lccxfde9sno0/public_html/blockchain/blockchain/api-v1-client-php-master/src/Create/Create.php(14): Blockchain\Create\Create->doCreate('Jha@8510811811', NULL, NULL, NULL)
+#3 /home/lccxfde9sno0/public_html/blockchain/blockchain/api-v1-client-php-master/wallet.php(23): Blockchain\Create\Create->create('Jha@8510811811', NULL, NULL)
+#4 {main}
+  thrown in /home/lccxfde9sno0/public_html/blockchain/blockchain/api-v1-client-php-master/src/Blockchain.php on line 152
+[14-Oct-2020 14:38:23 UTC] PHP Fatal error:  Uncaught Blockchain\Exception\HttpError: Call to http://localhost:3000/merchant/9b02bd2d-34cc-4565-9cbf-d7323204d762/balance failed: Failed to connect to localhost port 3000: Connection refused in /home/lccxfde9sno0/public_html/blockchain/blockchain/api-v1-client-php-master/src/Blockchain.php:152
+Stack trace:
+#0 /home/lccxfde9sno0/public_html/blockchain/blockchain/api-v1-client-php-master/src/Blockchain.php(115): Blockchain\Blockchain->_call()
+#1 /home/lccxfde9sno0/public_html/blockchain/blockchain/api-v1-client-php-master/src/Wallet/Wallet.php(49): Blockchain\Blockchain->post('merchant/9b02bd...', Array)
+#2 /home/lccxfde9sno0/public_html/blockchain/blockchain/api-v1-client-php-master/src/Wallet/Wallet.php(57): Blockchain\Wallet\Wallet->call('balance')
+#3 /home/lccxfde9sno0/public_html/blockchain/blockchain/api-v1-client-php-master/wallet.php(26): Blockchain\Wallet\Wallet->getBalance()
+#4 {main}
+  thrown in /home/lccxfde9sno0/public_html/blockchain/blockchain/api-v1-client-php-master/src/Blockchain.php on line 152
+[14-Oct-2020 14:39:25 UTC] PHP Fatal error:  Uncaught Blockchain\Exception\HttpError: Call to http://localhost:3000/merchant/9b02bd2d-34cc-4565-9cbf-d7323204d762/balance failed: Failed to connect to localhost port 3000: Connection refused in /home/lccxfde9sno0/public_html/blockchain/blockchain/api-v1-client-php-master/src/Blockchain.php:152
+Stack trace:
+#0 /home/lccxfde9sno0/public_html/blockchain/blockchain/api-v1-client-php-master/src/Blockchain.php(115): Blockchain\Blockchain->_call()
+#1 /home/lccxfde9sno0/public_html/blockchain/blockchain/api-v1-client-php-master/src/Wallet/Wallet.php(47): Blockchain\Blockchain->post('merchant/9b02bd...', Array)
+#2 /home/lccxfde9sno0/public_html/blockchain/blockchain/api-v1-client-php-master/src/Wallet/Wallet.php(55): Blockchain\Wallet\Wallet->call('balance')
+#3 /home/lccxfde9sno0/public_html/blockchain/blockchain/api-v1-client-php-master/wallet.php(26): Blockchain\Wallet\Wallet->getBalance()
+#4 {main}
+  thrown in /home/lccxfde9sno0/public_html/blockchain/blockchain/api-v1-client-php-master/src/Blockchain.php on line 152
+[14-Oct-2020 14:40:29 UTC] PHP Fatal error:  Uncaught Blockchain\Exception\HttpError: Call to http://localhost:3000/merchant/9b02bd2d-34cc-4565-9cbf-d7323204d762/balance failed: Failed to connect to localhost port 3000: Connection refused in /home/lccxfde9sno0/public_html/blockchain/blockchain/api-v1-client-php-master/src/Blockchain.php:152
+Stack trace:
+#0 /home/lccxfde9sno0/public_html/blockchain/blockchain/api-v1-client-php-master/src/Blockchain.php(115): Blockchain\Blockchain->_call()
+#1 /home/lccxfde9sno0/public_html/blockchain/blockchain/api-v1-client-php-master/src/Wallet/Wallet.php(47): Blockchain\Blockchain->post('merchant/9b02bd...', Array)
+#2 /home/lccxfde9sno0/public_html/blockchain/blockchain/api-v1-client-php-master/src/Wallet/Wallet.php(55): Blockchain\Wallet\Wallet->call('balance')
+#3 /home/lccxfde9sno0/public_html/blockchain/blockchain/api-v1-client-php-master/wallet.php(26): Blockchain\Wallet\Wallet->getBalance()
+#4 {main}
+  thrown in /home/lccxfde9sno0/public_html/blockchain/blockchain/api-v1-client-php-master/src/Blockchain.php on line 152
+[14-Oct-2020 14:41:20 UTC] PHP Fatal error:  Uncaught Blockchain\Exception\HttpError: Call to http://localhost:3000/merchant/9b02bd2d-34cc-4565-9cbf-d7323204d762/balance failed: Failed to connect to localhost port 3000: Connection refused in /home/lccxfde9sno0/public_html/blockchain/blockchain/api-v1-client-php-master/src/Blockchain.php:151
+Stack trace:
+#0 /home/lccxfde9sno0/public_html/blockchain/blockchain/api-v1-client-php-master/src/Blockchain.php(114): Blockchain\Blockchain->_call()
+#1 /home/lccxfde9sno0/public_html/blockchain/blockchain/api-v1-client-php-master/src/Wallet/Wallet.php(47): Blockchain\Blockchain->post('merchant/9b02bd...', Array)
+#2 /home/lccxfde9sno0/public_html/blockchain/blockchain/api-v1-client-php-master/src/Wallet/Wallet.php(55): Blockchain\Wallet\Wallet->call('balance')
+#3 /home/lccxfde9sno0/public_html/blockchain/blockchain/api-v1-client-php-master/wallet.php(26): Blockchain\Wallet\Wallet->getBalance()
+#4 {main}
+  thrown in /home/lccxfde9sno0/public_html/blockchain/blockchain/api-v1-client-php-master/src/Blockchain.php on line 151
+[14-Oct-2020 14:42:22 UTC] PHP Fatal error:  Uncaught Blockchain\Exception\HttpError: Call to http://localhost:3000/merchant/9b02bd2d-34cc-4565-9cbf-d7323204d762/balance failed: Failed to connect to localhost port 3000: Connection refused in /home/lccxfde9sno0/public_html/blockchain/blockchain/api-v1-client-php-master/src/Blockchain.php:151
+Stack trace:
+#0 /home/lccxfde9sno0/public_html/blockchain/blockchain/api-v1-client-php-master/src/Blockchain.php(114): Blockchain\Blockchain->_call()
+#1 /home/lccxfde9sno0/public_html/blockchain/blockchain/api-v1-client-php-master/src/Wallet/Wallet.php(47): Blockchain\Blockchain->post('merchant/9b02bd...', Array)
+#2 /home/lccxfde9sno0/public_html/blockchain/blockchain/api-v1-client-php-master/src/Wallet/Wallet.php(55): Blockchain\Wallet\Wallet->call('balance')
+#3 /home/lccxfde9sno0/public_html/blockchain/blockchain/api-v1-client-php-master/wallet.php(26): Blockchain\Wallet\Wallet->getBalance()
+#4 {main}
+  thrown in /home/lccxfde9sno0/public_html/blockchain/blockchain/api-v1-client-php-master/src/Blockchain.php on line 151

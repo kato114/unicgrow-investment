@@ -1,0 +1,88 @@
+[15-Oct-2020 19:27:49 UTC] PHP Fatal error:  Uncaught Blockchain\Exception\HttpError: Call to http://localhost:3000/merchant/9b02bd2d-34cc-4565-9cbf-d7323204d762/new_address failed: Failed to connect to localhost port 3000: Connection refused in /home/lccxfde9sno0/public_html/member/blockchain/src/Blockchain.php:150
+Stack trace:
+#0 /home/lccxfde9sno0/public_html/member/blockchain/src/Blockchain.php(114): Blockchain\Blockchain->_call()
+#1 /home/lccxfde9sno0/public_html/member/blockchain/src/Wallet/Wallet.php(47): Blockchain\Blockchain->post('merchant/9b02bd...', Array)
+#2 /home/lccxfde9sno0/public_html/member/blockchain/src/Wallet/Wallet.php(77): Blockchain\Wallet\Wallet->call('new_address', Array)
+#3 /home/lccxfde9sno0/public_html/member/blockchain/wallet.php(31): Blockchain\Wallet\Wallet->getNewAddress('Unic Grow Addre...')
+#4 {main}
+  thrown in /home/lccxfde9sno0/public_html/member/blockchain/src/Blockchain.php on line 150
+[15-Oct-2020 19:28:41 UTC] PHP Fatal error:  Uncaught Blockchain\Exception\HttpError: Call to http://localhost:3000/merchant/9b02bd2d-34cc-4565-9cbf-d7323204d762/new_address failed: Failed to connect to localhost port 3000: Connection refused in /home/lccxfde9sno0/public_html/member/blockchain/src/Blockchain.php:150
+Stack trace:
+#0 /home/lccxfde9sno0/public_html/member/blockchain/src/Blockchain.php(114): Blockchain\Blockchain->_call()
+#1 /home/lccxfde9sno0/public_html/member/blockchain/src/Wallet/Wallet.php(47): Blockchain\Blockchain->post('merchant/9b02bd...', Array)
+#2 /home/lccxfde9sno0/public_html/member/blockchain/src/Wallet/Wallet.php(77): Blockchain\Wallet\Wallet->call('new_address', Array)
+#3 /home/lccxfde9sno0/public_html/member/blockchain/wallet.php(31): Blockchain\Wallet\Wallet->getNewAddress('Unic Grow Addre...')
+#4 {main}
+  thrown in /home/lccxfde9sno0/public_html/member/blockchain/src/Blockchain.php on line 150
+[15-Oct-2020 19:28:59 UTC] PHP Fatal error:  Uncaught Blockchain\Exception\HttpError: Call to http://localhost:3000/merchant/9b02bd2d-34cc-4565-9cbf-d7323204d762/balance failed: Failed to connect to localhost port 3000: Connection refused in /home/lccxfde9sno0/public_html/member/blockchain/src/Blockchain.php:150
+Stack trace:
+#0 /home/lccxfde9sno0/public_html/member/blockchain/src/Blockchain.php(114): Blockchain\Blockchain->_call()
+#1 /home/lccxfde9sno0/public_html/member/blockchain/src/Wallet/Wallet.php(47): Blockchain\Blockchain->post('merchant/9b02bd...', Array)
+#2 /home/lccxfde9sno0/public_html/member/blockchain/src/Wallet/Wallet.php(55): Blockchain\Wallet\Wallet->call('balance')
+#3 /home/lccxfde9sno0/public_html/member/blockchain/wallet.php(27): Blockchain\Wallet\Wallet->getBalance()
+#4 {main}
+  thrown in /home/lccxfde9sno0/public_html/member/blockchain/src/Blockchain.php on line 150
+[15-Oct-2020 19:29:02 UTC] PHP Fatal error:  Uncaught Blockchain\Exception\HttpError: Call to http://localhost:3000/merchant/9b02bd2d-34cc-4565-9cbf-d7323204d762/balance failed: Failed to connect to localhost port 3000: Connection refused in /home/lccxfde9sno0/public_html/member/blockchain/src/Blockchain.php:150
+Stack trace:
+#0 /home/lccxfde9sno0/public_html/member/blockchain/src/Blockchain.php(114): Blockchain\Blockchain->_call()
+#1 /home/lccxfde9sno0/public_html/member/blockchain/src/Wallet/Wallet.php(47): Blockchain\Blockchain->post('merchant/9b02bd...', Array)
+#2 /home/lccxfde9sno0/public_html/member/blockchain/src/Wallet/Wallet.php(55): Blockchain\Wallet\Wallet->call('balance')
+#3 /home/lccxfde9sno0/public_html/member/blockchain/wallet.php(27): Blockchain\Wallet\Wallet->getBalance()
+#4 {main}
+  thrown in /home/lccxfde9sno0/public_html/member/blockchain/src/Blockchain.php on line 150
+[15-Oct-2020 19:29:16 UTC] PHP Fatal error:  Uncaught Blockchain\Exception\HttpError: Call to http://localhost:3000/merchant/9b02bd2d-34cc-4565-9cbf-d7323204d762/balance failed: Failed to connect to localhost port 3000: Connection refused in /home/lccxfde9sno0/public_html/member/blockchain/src/Blockchain.php:150
+Stack trace:
+#0 /home/lccxfde9sno0/public_html/member/blockchain/src/Blockchain.php(114): Blockchain\Blockchain->_call()
+#1 /home/lccxfde9sno0/public_html/member/blockchain/src/Wallet/Wallet.php(47): Blockchain\Blockchain->post('merchant/9b02bd...', Array)
+#2 /home/lccxfde9sno0/public_html/member/blockchain/src/Wallet/Wallet.php(55): Blockchain\Wallet\Wallet->call('balance')
+#3 /home/lccxfde9sno0/public_html/member/blockchain/wallet.php(27): Blockchain\Wallet\Wallet->getBalance()
+#4 {main}
+  thrown in /home/lccxfde9sno0/public_html/member/blockchain/src/Blockchain.php on line 150
+[15-Oct-2020 19:30:18 UTC] PHP Fatal error:  Uncaught Blockchain\Exception\HttpError: Call to http://localhost:3000/merchant/merchant/9b02bd2d-34cc-4565-9cbf-d7323204d762/balance failed: Failed to connect to localhost port 3000: Connection refused in /home/lccxfde9sno0/public_html/member/blockchain/src/Blockchain.php:150
+Stack trace:
+#0 /home/lccxfde9sno0/public_html/member/blockchain/src/Blockchain.php(114): Blockchain\Blockchain->_call()
+#1 /home/lccxfde9sno0/public_html/member/blockchain/src/Wallet/Wallet.php(47): Blockchain\Blockchain->post('merchant/9b02bd...', Array)
+#2 /home/lccxfde9sno0/public_html/member/blockchain/src/Wallet/Wallet.php(55): Blockchain\Wallet\Wallet->call('balance')
+#3 /home/lccxfde9sno0/public_html/member/blockchain/wallet.php(27): Blockchain\Wallet\Wallet->getBalance()
+#4 {main}
+  thrown in /home/lccxfde9sno0/public_html/member/blockchain/src/Blockchain.php on line 150
+[15-Oct-2020 19:38:31 UTC] PHP Fatal error:  Uncaught Blockchain\Exception\HttpError: Call to http://localhost:3000/merchant/9b02bd2d-34cc-4565-9cbf-d7323204d762/balance failed: Failed to connect to localhost port 3000: Connection refused in /home/lccxfde9sno0/public_html/member/blockchain/src/Blockchain.php:150
+Stack trace:
+#0 /home/lccxfde9sno0/public_html/member/blockchain/src/Blockchain.php(114): Blockchain\Blockchain->_call()
+#1 /home/lccxfde9sno0/public_html/member/blockchain/src/Wallet/Wallet.php(47): Blockchain\Blockchain->post('merchant/9b02bd...', Array)
+#2 /home/lccxfde9sno0/public_html/member/blockchain/src/Wallet/Wallet.php(55): Blockchain\Wallet\Wallet->call('balance')
+#3 /home/lccxfde9sno0/public_html/member/blockchain/wallet.php(27): Blockchain\Wallet\Wallet->getBalance()
+#4 {main}
+  thrown in /home/lccxfde9sno0/public_html/member/blockchain/src/Blockchain.php on line 150
+[16-Oct-2020 03:23:15 UTC] PHP Fatal error:  Uncaught Blockchain\Exception\HttpError: Call to http://localhost:3000/merchant/9b02bd2d-34cc-4565-9cbf-d7323204d762/balance failed: Failed to connect to localhost port 3000: Connection refused in /home/lccxfde9sno0/public_html/member/blockchain/src/Blockchain.php:150
+Stack trace:
+#0 /home/lccxfde9sno0/public_html/member/blockchain/src/Blockchain.php(114): Blockchain\Blockchain->_call()
+#1 /home/lccxfde9sno0/public_html/member/blockchain/src/Wallet/Wallet.php(47): Blockchain\Blockchain->post('merchant/9b02bd...', Array)
+#2 /home/lccxfde9sno0/public_html/member/blockchain/src/Wallet/Wallet.php(55): Blockchain\Wallet\Wallet->call('balance')
+#3 /home/lccxfde9sno0/public_html/member/blockchain/wallet.php(27): Blockchain\Wallet\Wallet->getBalance()
+#4 {main}
+  thrown in /home/lccxfde9sno0/public_html/member/blockchain/src/Blockchain.php on line 150
+[16-Oct-2020 16:13:18 UTC] PHP Fatal error:  Uncaught Blockchain\Exception\HttpError: Call to http://localhost:3000/merchant/9b02bd2d-34cc-4565-9cbf-d7323204d762/balance failed: Failed to connect to localhost port 3000: Connection refused in /home/lccxfde9sno0/public_html/member/blockchain/src/Blockchain.php:150
+Stack trace:
+#0 /home/lccxfde9sno0/public_html/member/blockchain/src/Blockchain.php(114): Blockchain\Blockchain->_call()
+#1 /home/lccxfde9sno0/public_html/member/blockchain/src/Wallet/Wallet.php(47): Blockchain\Blockchain->post('merchant/9b02bd...', Array)
+#2 /home/lccxfde9sno0/public_html/member/blockchain/src/Wallet/Wallet.php(55): Blockchain\Wallet\Wallet->call('balance')
+#3 /home/lccxfde9sno0/public_html/member/blockchain/wallet.php(27): Blockchain\Wallet\Wallet->getBalance()
+#4 {main}
+  thrown in /home/lccxfde9sno0/public_html/member/blockchain/src/Blockchain.php on line 150
+[16-Oct-2020 16:44:15 UTC] PHP Fatal error:  Uncaught Blockchain\Exception\HttpError: Call to http://localhost:3000/merchant/9b02bd2d-34cc-4565-9cbf-d7323204d762/balance failed: Failed to connect to localhost port 3000: Connection refused in /home/lccxfde9sno0/public_html/member/blockchain/src/Blockchain.php:150
+Stack trace:
+#0 /home/lccxfde9sno0/public_html/member/blockchain/src/Blockchain.php(114): Blockchain\Blockchain->_call()
+#1 /home/lccxfde9sno0/public_html/member/blockchain/src/Wallet/Wallet.php(47): Blockchain\Blockchain->post('merchant/9b02bd...', Array)
+#2 /home/lccxfde9sno0/public_html/member/blockchain/src/Wallet/Wallet.php(55): Blockchain\Wallet\Wallet->call('balance')
+#3 /home/lccxfde9sno0/public_html/member/blockchain/wallet.php(27): Blockchain\Wallet\Wallet->getBalance()
+#4 {main}
+  thrown in /home/lccxfde9sno0/public_html/member/blockchain/src/Blockchain.php on line 150
+[16-Oct-2020 16:55:59 UTC] PHP Fatal error:  Uncaught Blockchain\Exception\HttpError: Call to http://localhost:3000/merchant/9b02bd2d-34cc-4565-9cbf-d7323204d762/balance failed: Failed to connect to localhost port 3000: Connection refused in /home/lccxfde9sno0/public_html/member/blockchain/src/Blockchain.php:150
+Stack trace:
+#0 /home/lccxfde9sno0/public_html/member/blockchain/src/Blockchain.php(114): Blockchain\Blockchain->_call()
+#1 /home/lccxfde9sno0/public_html/member/blockchain/src/Wallet/Wallet.php(47): Blockchain\Blockchain->post('merchant/9b02bd...', Array)
+#2 /home/lccxfde9sno0/public_html/member/blockchain/src/Wallet/Wallet.php(55): Blockchain\Wallet\Wallet->call('balance')
+#3 /home/lccxfde9sno0/public_html/member/blockchain/wallet.php(27): Blockchain\Wallet\Wallet->getBalance()
+#4 {main}
+  thrown in /home/lccxfde9sno0/public_html/member/blockchain/src/Blockchain.php on line 150

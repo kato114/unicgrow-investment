@@ -1,0 +1,6 @@
+[13-Nov-2019 07:48:55 UTC] PHP Parse error:  syntax error, unexpected '=' in /home/comeonplaynow/public_html/member/function/btccoin_tx.php on line 7
+[14-Nov-2019 05:55:18 UTC] PHP Parse error:  syntax error, unexpected '=' in /home/comeonplaynow/public_html/member/function/ethcoin_tx.php on line 7
+[14-Nov-2019 05:59:17 UTC] PHP Parse error:  syntax error, unexpected '=' in /home/comeonplaynow/public_html/member/function/ethcoin_tx.php on line 7
+[14-Nov-2019 06:44:02 UTC] PHP Parse error:  syntax error, unexpected 'if' (T_IF) in /home/comeonplaynow/public_html/member/function/ethcoin_tx.php on line 23
+[14-Nov-2019 06:44:04 UTC] PHP Parse error:  syntax error, unexpected 'if' (T_IF) in /home/comeonplaynow/public_html/member/function/ethcoin_tx.php on line 23
+[14-Nov-2019 07:33:43 UTC] PHP Parse error:  syntax error, unexpected 'if' (T_IF) in /home/comeonplaynow/public_html/member/function/ethcoin_tx.php on line 32
